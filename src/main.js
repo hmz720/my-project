@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import router from './router'
 
-import vueResource from 'vue-resource'
-Vue.use(vueResource)
+
+import axios from 'axios'
+// 将axios绑定在vue原型上,这样可以在其他组件中通过this.$axios使用axios
+Vue.prototype.$axios = axios;
+
 
 
 

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h>http请求this.$axios.get</h>
+  
     <router-view></router-view>
       
    
@@ -21,6 +21,6 @@ export default {
 
   color: #2c3e50;
   margin-top: 10px;
-  border:1px solid #fff;
+  
 }
 </style>
